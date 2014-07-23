@@ -2,19 +2,19 @@
 
   <div class="wrap">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <h2 class="footer-heading">Contact Me</h2>
 
     <div class="footer-col-1 column">
       <ul>
         <li>{{ site.title }}</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li><a class="footer-link" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
       </ul>
     </div>
 
     <div class="footer-col-2 column">
       <ul>
         {% if site.github_username %}<li>
-          <a href="https://github.com/{{ site.github_username }}">
+          <a class="footer-link" href="https://github.com/{{ site.github_username }}">
             <span class="icon github">
               <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
@@ -33,7 +33,7 @@
           </a>
         </li>{% endif %}
         {% if site.twitter_username %}<li>
-          <a href="https://twitter.com/{{ site.twitter_username }}">
+          <a class="footer-link" href="https://twitter.com/{{ site.twitter_username }}">
             <span class="icon twitter">
               <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
